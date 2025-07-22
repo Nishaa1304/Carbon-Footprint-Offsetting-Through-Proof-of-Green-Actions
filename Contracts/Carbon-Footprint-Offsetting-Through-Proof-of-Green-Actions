@@ -195,6 +195,17 @@ contract Project {
         external onlyOwner {
         _addGreenAction(_actionType, _carbonCredits, _requiredStake);
     }
+
+    /**
+     * @dev Owner can deactivate a green action to prevent new submissions.
+     * @param _actionId The ID of the green action to deactivate.
+     */
+    function deactivateGreenAction(uint256 _actionId) external onlyOwner {
+        require(_actionId < nextActionId, "Invalid action ID");
+        require(greenActions[_actionId].isActive, "Action already inactive");
+        
+        greenActions[_actionId].isActive = false;
+    }
     
     // Function to authorize verifiers
     function authorizeVerifier(address _verifier) external onlyOwner {
@@ -219,3 +230,5 @@ contract Project {
         payable(owner).transfer(address(this).balance);
     }
 }
+
+
