@@ -1,12 +1,12 @@
 # Carbon Footprint Offsetting Through Proof-of-Green-Actions
 
-## Project Description
+## Project Description :
 
 The Carbon Footprint Offsetting Through Proof-of-Green-Actions project is a revolutionary blockchain-based platform that incentivizes and verifies eco-friendly actions while enabling users to offset their carbon footprint through earned green credits. This decentralized system combines environmental responsibility with economic incentives, creating a transparent and trustworthy ecosystem for carbon offset management.
 
 Users can submit proof of various green actions (such as installing solar panels, planting trees, or purchasing electric vehicles), stake cryptocurrency to demonstrate commitment, and earn carbon credits upon verification by the community. These credits can then be used to offset their carbon footprint or traded within the ecosystem.
 
-## Project Vision
+## Project Vision :
 
 Our vision is to create a decentralized, transparent, and economically viable solution that:
 
@@ -16,7 +16,7 @@ Our vision is to create a decentralized, transparent, and economically viable so
 - **Creates a Global Green Community**: Connecting environmentally conscious individuals worldwide through shared goals and mutual verification
 - **Bridges Traditional Carbon Markets**: Providing a pathway for verified green actions to integrate with established carbon credit markets
 
-## Key Features
+## Key Features :
 
 ### 🌱 **Proof-of-Green-Actions System**
 - Submit cryptographic proof of eco-friendly actions (photos, IoT sensor data, certified documentation)
@@ -169,3 +169,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contract Address:0x4df8dcba9f6afd8042139541a03c0dd98370e8a9
 
 ![Screenshot 2025-06-19 190756](https://github.com/user-attachments/assets/39afebbd-7aed-4e42-bf38-8f0700fd7c42)
+
